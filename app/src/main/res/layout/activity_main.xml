@@ -247,12 +247,14 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop="188dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="@dimen/btn_strt"
+        android:layout_marginEnd="@dimen/btn_end"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/rounding"
         android:textSize="@dimen/txtsz"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/rounding"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

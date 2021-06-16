@@ -4,4 +4,5 @@
     <dimen name="btn_strt">16dp</dimen>
     <dimen name="btn_top">20dp</dimen>
     <dimen name="btn_toppar">400dp</dimen>
+    <dimen name="btn_end">16dp</dimen>
 </resources>
