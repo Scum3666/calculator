@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="txtsz">25sp</dimen>
-    <dimen name="btn_strt">16</dimen>
+    <dimen name="btn_strt">16dp</dimen>
+    <dimen name="btn_top">20dp</dimen>
+    <dimen name="btn_toppar">400dp</dimen>
 </resources>
