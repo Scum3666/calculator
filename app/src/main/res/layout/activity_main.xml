@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -96,7 +96,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button4"
         android:background="@drawable/rounding"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -105,7 +105,7 @@
         android:background="@drawable/rounding"
         app:layout_constraintStart_toEndOf="@id/button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/outline_backspace_24" />
+        android:drawableTop="@drawable/outline_backspace_24"/>
 
     <Button
         android:id="@+id/button10"
@@ -255,4 +255,4 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
