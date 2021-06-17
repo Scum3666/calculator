@@ -18,6 +18,7 @@
         android:background="@drawable/rounding"
         android:text="@string/_5"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
@@ -29,6 +30,7 @@
         android:layout_marginStart="@dimen/btn_strtpar"
         android:background="@drawable/rounding"
         android:text="@string/_7"
+        android:textColor="@color/white"
         android:textSize="@dimen/txtsz"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,6 +58,7 @@
         android:background="@drawable/rounding"
         android:text="@string/_4"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
@@ -93,6 +96,7 @@
         android:layout_marginTop="@dimen/btn_top"
         android:text="@string/_1"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
         android:background="@drawable/rounding"/>
@@ -127,6 +131,7 @@
         android:layout_marginTop="@dimen/btn_top"
         android:background="@drawable/rounding"
         android:text="@string/_8"
+        android:textColor="@color/white"
         android:textSize="@dimen/txtsz"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
@@ -139,6 +144,7 @@
         android:layout_marginTop="@dimen/btn_top"
         android:text="@string/_2"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button11"
         android:background="@drawable/rounding"/>
@@ -153,6 +159,7 @@
         android:background="@drawable/rounding"
         android:text="@string/_0"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/imageButton1"
         app:layout_constraintTop_toBottomOf="@id/button12" />
 
@@ -177,6 +184,7 @@
         android:layout_marginTop="@dimen/btn_top"
         android:text="@string/_9"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/button10"
         app:layout_constraintTop_toBottomOf="@+id/button6"
         android:background="@drawable/rounding"/>
@@ -190,6 +198,7 @@
         android:background="@drawable/rounding"
         android:text="@string/_6"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/button11"
         app:layout_constraintTop_toBottomOf="@+id/button15" />
 
@@ -202,6 +211,7 @@
         android:background="@drawable/rounding"
         android:text="@string/_3"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@+id/button12"
         app:layout_constraintTop_toBottomOf="@+id/button16" />
 
@@ -214,6 +224,7 @@
         android:background="@drawable/rounding"
         android:text="@string/dot"
         android:textSize="@dimen/txtsz"
+        android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/button13"
         app:layout_constraintTop_toBottomOf="@id/button17"/>
 
