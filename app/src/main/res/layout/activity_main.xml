@@ -106,8 +106,18 @@
         android:background="@drawable/rounding"
         app:layout_constraintStart_toEndOf="@id/button2"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/outline_backspace_24"
-        android:contentDescription="@string/todo" />
+        android:src="@drawable/outline_backspace_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
+        android:layout_marginTop="@dimen/btn_top"
+        android:layout_marginStart="@dimen/btn_strtpar"
+        android:background="@drawable/rounding"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button8"
+        android:src="@drawable/outline_backspace_24" />
 
     <Button
         android:id="@+id/button10"
@@ -133,17 +143,18 @@
         app:layout_constraintTop_toBottomOf="@+id/button11"
         android:background="@drawable/rounding"/>
 
+
     <Button
         android:id="@+id/button13"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
-        android:layout_marginStart="108dp"
         android:layout_marginTop="@dimen/btn_top"
+        android:layout_marginStart="@dimen/btn_strt"
         android:background="@drawable/rounding"
         android:text="@string/_0"
         android:textSize="@dimen/txtsz"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button12" />
+        app:layout_constraintStart_toEndOf="@id/imageButton1"
+        app:layout_constraintTop_toBottomOf="@id/button12" />
 
     <Button
         android:textColor="@color/Orange"
@@ -203,7 +214,7 @@
         android:background="@drawable/rounding"
         android:text="@string/dot"
         android:textSize="@dimen/txtsz"
-        app:layout_constraintStart_toEndOf="@+id/button13"
+        app:layout_constraintStart_toEndOf="@id/button13"
         app:layout_constraintTop_toBottomOf="@id/button17"/>
 
     <Button
@@ -243,7 +254,7 @@
         android:textColor="@color/Orange"
         android:textSize="@dimen/txtsz"
         app:layout_constraintStart_toEndOf="@id/button18"
-        app:layout_constraintTop_toBottomOf="@+id/button20" />
+        app:layout_constraintTop_toBottomOf="@id/button20" />
 
     <EditText
         android:layout_width="match_parent"
