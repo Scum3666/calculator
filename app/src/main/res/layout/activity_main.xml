@@ -8,8 +8,7 @@
     tools:context=".MainActivity"
     android:background="#ffffff">
 
-
-    <Button
+    <b
         android:id="@+id/button11"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
