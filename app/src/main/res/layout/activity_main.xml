@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#ffffff">
+    android:background="@color/white">
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button11"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
@@ -22,7 +22,7 @@
         app:layout_constraintStart_toEndOf="@+id/button4"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button2"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
@@ -101,7 +101,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button4"
         android:background="@drawable/rounding"/>
 
-    <ImageButton
+    <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/imageButton"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
@@ -268,11 +268,17 @@
         app:layout_constraintTop_toBottomOf="@id/button20" />
 
     <EditText
+        android:id="@+id/result"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginStart="@dimen/btn_strt"
         android:layout_marginEnd="@dimen/btn_end"
         android:layout_marginTop="100dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="0"
         android:background="@drawable/rounding"
         android:textSize="@dimen/txtsz"
         app:layout_constraintStart_toStartOf="parent"
