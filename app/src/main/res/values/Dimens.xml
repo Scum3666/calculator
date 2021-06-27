@@ -3,7 +3,7 @@
     <dimen name="txtsz">25sp</dimen>
     <dimen name="btn_strt">16dp</dimen>
     <dimen name="btn_top">20dp</dimen>
-    <dimen name="btn_toppar">370dp</dimen>
+    <dimen name="btn_toppar">100dp</dimen>
     <dimen name="btn_end">16dp</dimen>
     <dimen name="btn_strtpar">20dp</dimen>
     <dimen name="btn_width">80dp</dimen>
